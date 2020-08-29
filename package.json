@@ -1,0 +1,19 @@
+{
+  "name": "coursera-1",
+  "version": "1.0.0",
+  "description": "This is a test directory to learn Git and Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codershona/coursera-1.git"
+  },
+  "author": "Barbie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codershona/coursera-1/issues"
+  },
+  "homepage": "https://github.com/codershona/coursera-1#readme"
+}
