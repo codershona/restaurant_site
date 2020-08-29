@@ -12,6 +12,7 @@
    * npm install lite-server --save-dev ;
    * Run npm install -g npm to update!  ;
    * npm start ;
+   * git log --oneline ;
    * 
 
 
