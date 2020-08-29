@@ -8,7 +8,10 @@
 
 ```
    * npm init ;
-   * Ctrl + 8 ;
+   * Shift + 8 ;
+   * npm install lite-server --save-dev ;
+   * Run npm install -g npm to update!  ;
+   * npm start ;
    * 
 
 
