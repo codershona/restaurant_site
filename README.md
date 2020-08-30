@@ -1,2 +1,21 @@
-# cousera-1
-Full-Stack Web Development with React Specialization (Front-End Web UI Frameworks and Tools: Bootstrap 4)
+# Front-End Web UI Frameworks and Tools: Bootstrap 4
+
+## Full-Stack Web Development with React Specialization (Front-End Web UI Frameworks and Tools: Bootstrap 4)
+
+
+
+* NOTES :
+
+```
+   * npm init ;
+   * Shift + 8 ;
+   * npm install lite-server --save-dev ;
+   * Run npm install -g npm to update!  ;
+   * npm start ;
+   * git log --oneline ;
+   * npm install bootstrap@4.0.0 --save ;
+   * npm install jquery@3.3.1 popper.js@1.12.9 --save ;
+   * 
+
+
+```
