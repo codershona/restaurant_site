@@ -36,5 +36,26 @@
     color:#0f0f0f;
 }
 
+body {
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
 
+}
 
+.navbar-dark {
+	background-color: #512DA8;
+
+	
+}
+
+.mr-3, .mx-3 {
+    margin-right: 1rem !important;
+    height: 210px;
+    width: 210px;
+}
+
+.reserveform {
+	color: black;
+	
+
+}
