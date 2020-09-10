@@ -18,7 +18,5 @@
    * npm start
    * npm install font-awesome --save ;
    * npm install bootstrap-social@5.1.1 --save ;
-   * 
-
-
+   
 ```

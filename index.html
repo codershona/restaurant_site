@@ -120,10 +120,125 @@
 
 
           <div class="col-12 col-sm align-self-center">
-      <a role="button" class="btn btn-block nav-link btn-warning reserveform" data-toggle="tooltip" data-html="true" 
+      <!-- <a role="button" class="btn btn-block nav-link btn-warning reserveform" data-toggle="tooltip" data-html="true" 
       title="Or Call us at <br><strong>+852 12345678</strong>"
       data-placement="bottom"  
-       href="#reserveform">Reserve Table</a>
+       href="#reserveform"> -->
+
+       <a role="button" class="btn btn-block nav-link btn-light reserveform" data-html="true" 
+      title="Or Call us at <br><strong>+852 12345678</strong>"
+      data-placement="bottom"  
+       href="#reserveform">
+     Booked Your table
+   </a>
+
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-block nav-link btn-warning reserveform" data-toggle="modal" data-target="#exampleModal"  href="#reserveform">
+  Reserve Table
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font1" id="exampleModalLabel">Reserve a Table</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="form-check form-check-inline">
+
+      <h5 class="card-title font1">Number of Guests</h5>
+  </div>
+
+      <div class="form-check form-check-inline">
+        <!-- <h5 class="card-title">Number of Guests</h5> -->
+     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label font1" for="inlineRadio1">1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label font1" for="inlineRadio2">2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+  <label class="form-check-label font1" for="inlineRadio3">3</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+  <label class="form-check-label font1" for="inlineRadio3">4</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+  <label class="form-check-label font1" for="inlineRadio3">5</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+  <label class="form-check-label font1" for="inlineRadio3">6</label>
+</div>
+
+  <br/>
+
+  <div class="modal-body">
+         <div class="form-row form-check-inline">
+    <div class="col col-md-3">
+    <h5 class="card-title font1">Section</h5>
+  </div>
+ </div>
+
+
+     <div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-success active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked>   Non-Smoking
+  </label>
+  <label class="btn btn-danger">
+    <input type="radio" name="options" id="option2" autocomplete="off"> 
+    Smoking
+  </label>
+  
+</div>
+  </div>
+
+  <br/> 
+  
+    <form>
+      <!-- <div class="form-check form-check-inline">
+      <h5 class="card-title">Date and Time</h5>
+  </div> -->
+  <div class="form-row form-check-inline">
+    <div class="col col-md-3">
+    <h5 class="card-title font1">Date and Time</h5>
+  </div>
+
+    <div class="col col-md-4">
+      <input type="text" class="form-control" placeholder="Date">
+    </div>
+    <div class="col col-md-4">
+      <input type="text" class="form-control" placeholder="Time">
+    </div>
+  </div>
+</form>
+
+ <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Reserve</button>
+      </div>
+
+
+  </div>
+        
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
+
+
       </div>
 
           
@@ -296,16 +411,16 @@
 
 
         <div class="card" id="reserveform">
-        	<h5 class="card-header bg-warning">Reserve a Table</h5>
+          <h5 class="card-header bg-warning">Reserve a Table</h5>
   <div class="card-body">
 
-  	<div class="form-check form-check-inline">
+    <div class="form-check form-check-inline">
 
       <h5 class="card-title">Number of Guests</h5>
   </div>
 
       <div class="form-check form-check-inline">
-      	<!-- <h5 class="card-title">Number of Guests</h5> -->
+        <!-- <h5 class="card-title">Number of Guests</h5> -->
      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
   <label class="form-check-label" for="inlineRadio1">1</label>
 </div>
@@ -334,13 +449,12 @@
 
   
     <form>
-    	<!-- <div class="form-check form-check-inline">
-
+      <!-- <div class="form-check form-check-inline">
       <h5 class="card-title">Date and Time</h5>
   </div> -->
   <div class="form-row form-check-inline">
-  	<div class="col col-md-3">
-  	<h5 class="card-title">Date and Time</h5>
+    <div class="col col-md-3">
+    <h5 class="card-title">Date and Time</h5>
   </div>
 
     <div class="col col-md-4">
@@ -359,7 +473,7 @@
       <br/> <br/>  <br/> 
 
   </div>
-        	
+          
 
         </div>
 
@@ -382,13 +496,13 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone fa-lg"></i> : +852 1234 5678<br>
-		              <i class="fa fa-fax fa-lg"></i> : +852 8765 4321<br>
-		           <i class="fa fa-envelope fa-lg"></i> : <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                  121, Clear Water Bay Road<br>
+                  Clear Water Bay, Kowloon<br>
+                  HONG KONG<br>
+                  <i class="fa fa-phone fa-lg"></i> : +852 1234 5678<br>
+                  <i class="fa fa-fax fa-lg"></i> : +852 8765 4321<br>
+               <i class="fa fa-envelope fa-lg"></i> : <a href="mailto:confusion@food.net">confusion@food.net</a>
+               </address>
                 </div>
                 <div class="col-12 col-sm-4">
                     
@@ -415,11 +529,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-      <script>
+   <!--    <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
         });
-    </script>
+    </script> -->
     
 
 </body>
