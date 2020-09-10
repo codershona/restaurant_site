@@ -120,10 +120,48 @@
 
 
           <div class="col-12 col-sm align-self-center">
-      <a role="button" class="btn btn-block nav-link btn-warning reserveform" data-toggle="tooltip" data-html="true" 
+      <!-- <a role="button" class="btn btn-block nav-link btn-warning reserveform" data-toggle="tooltip" data-html="true" 
       title="Or Call us at <br><strong>+852 12345678</strong>"
       data-placement="bottom"  
-       href="#reserveform">Reserve Table</a>
+       href="#reserveform"> -->
+
+       <a role="button" class="btn btn-block nav-link btn-light reserveform" data-html="true" 
+      title="Or Call us at <br><strong>+852 12345678</strong>"
+      data-placement="bottom"  
+       href="#reserveform">
+     Booked Your table
+   </a>
+
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-block nav-link btn-warning reserveform" data-toggle="modal" data-target="#exampleModal"  href="#reserveform">
+  Reserve Table
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font1" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <p class="font1">This triggers a popover on click.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
       </div>
 
           
@@ -414,11 +452,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-      <script>
+   <!--    <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
         });
-    </script>
+    </script> -->
     
 
 </body>
