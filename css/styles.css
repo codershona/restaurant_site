@@ -84,3 +84,10 @@ body {
 .font1 {
     color: black;
 }
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
