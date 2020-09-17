@@ -52,3 +52,33 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background-color: #512DA8;
+  color: #fff;
+    
+}
+
+.modal-body {
+   background-color: #CCC4D9;
+}
+
+.form-check-inline {
+   color: black;
+
+}
+
+.carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    width: 250px;
+    height: 100px;
+}
+
+.mr-3, .mx-3 {
+    margin-right: 1rem !important;
+    width: 220px;
+    height: 190px;
+}
