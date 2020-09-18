@@ -33,7 +33,22 @@
    * Installing two NPM packages onchange and parallelshell as follows: npm install --save-dev onchange@3.3.0 parallelshell@3.0.2 ;
    * Fix the bugs by running: sudo npm uninstall --save-dev parallelshell@3.0.2 / sudo npm install --save-dev parallelshell@3.0.1 ;
    * Cleaning up a Distribution Folder: npm install --save-dev rimraf@2.6.2 ;
-   * 
+   * Copying Fonts: sudo npm -g install copyfiles@2.0.0 ;
+   * Run this: npm run copyfonts, to create distribution folder ;
+   * Run this: npm run clean , to remove distribution folder ;
+   * Compressing and Minifying Images: sudo npm install -g imagemin-cli@3.0.0 --unsafe-perm=true --allow-root ;
+   * Install the usemin-cli, cssmin, uglifyjs and htmlmin NPM packages: npm install --save-dev usemin-cli@0.5.1 cssmin@0.4.3 uglifyjs@2.4.11 htmlmin@0.0.7 ;
+   * Build the distribution folder: npm run build ;
+   * Check the browser: localhost:3000/dist/index.html or, aboutus.html or, contactus.html file ;
+
+
+```
+
+# Building and Deployment: Task Runners: Grunt and Gulp :
+
+```
+   * Installing Grunt: 
+
 
 
 ```
