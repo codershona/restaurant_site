@@ -32,7 +32,8 @@
    
    * Installing two NPM packages onchange and parallelshell as follows: npm install --save-dev onchange@3.3.0 parallelshell@3.0.2 ;
    * Fix the bugs by running: sudo npm uninstall --save-dev parallelshell@3.0.2 / sudo npm install --save-dev parallelshell@3.0.1 ;
-   * Cleaning up a Distribution Folder: 
+   * Cleaning up a Distribution Folder: npm install --save-dev rimraf@2.6.2 ;
+   * 
 
 
 ```
