@@ -47,7 +47,8 @@
 # Building and Deployment: Task Runners: Grunt and Gulp :
 
 ```
-   * Installing Grunt: 
+   * Installing Grunt: npm install -g grunt-cli@1.2.0 ;
+   * 
 
 
 
