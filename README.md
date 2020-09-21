@@ -50,6 +50,7 @@
    * Installing Grunt: sudo npm install -g grunt-cli@1.2.0 ;
    * npm install grunt@1.0.2 --save-dev ;
    * Compiling SCSS to CSS: npm install grunt-sass@2.1.0 --save-dev / npm install time-grunt@1.4.0 --save-dev / npm install jit-grunt@0.10.0 --save-dev ;
+   * Run the grunt SASS task: grunt css ;
    * 
 
 
