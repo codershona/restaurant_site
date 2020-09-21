@@ -53,6 +53,7 @@
    * Run the grunt SASS task: grunt css ;
    * Watch and Serve Tasks: npm install grunt-contrib-watch@1.0.0 --save-dev / npm install grunt-browser-sync@2.2.0 --save-dev ;
    * Run : grunt and check the browser;
+   * Copying the Files and Cleaning Up the Dist Folder: npm install grunt-contrib-copy@1.0.0 --save-dev / npm install grunt-contrib-clean@1.1.0 --save-dev ;
    * 
 
 
